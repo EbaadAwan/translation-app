@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Translating App</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Your HTML here -->
+    <header>
+        <img src="assets/parrot.png" alt="A colorful parrot smiling.">
+        <div class="header-container">
+            <h1>PollyGlot</h1>
+            <h2>Perfect Translation Every Time</h2>
+        </div>
+    </header>
+
+    <main>
+        <div class="translation-container">
+            <p class="translate">Text to translate 👇</p>
+
+            <textarea id="translate-area" placeholder="Enter Text To Translate"></textarea>
+
+            <div id="lang">
+                <p class="language">Select language 👇</p>
+
+                <div class="radio-option">
+                    <input type="radio" id="french" name="languages" value="french">
+                    <label class="design" for="french">
+                        French
+                        <img class="flag-icon" src="assets/fr-flag.png">
+                    </label>
+                </div>
+
+                <div class="radio-option">
+                    <input type="radio" id="spanish" name="languages" value="spanish">
+                    <label class="design" for="spanish">
+                        Spanish
+                        <img class="flag-icon" src="assets/sp-flag.png">
+                    </label>
+                </div>
+
+                <div class="radio-option">
+                    <input type="radio" id="japanese" name="languages" value="japanese">
+                    <label class="design" for="japanese">
+                        Japanese
+                        <img class="flag-icon" src="assets/jpn-flag.png">
+                    </label>
+                </div>
+
+                <button id="translate-btn">Translate</button>
+            </div>
+
+            <div id="result">
+                <p class="result">Your language 👇</p>
+                <textarea id="result-area" placeholder="Translation"></textarea>
+                <button id="restart">Start Over</button>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
