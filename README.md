@@ -1,12 +1,3 @@
 # PollyGlot
 
 This is a solo project that focuses on essential full stack JavaScript concepts like working with APIs, handling asynchronous requests, building an Express server, using environment variables, and dynamically updating the DOM. The purpose of this mini project was to create an AI-powered translation app where users can enter text, select a language, and receive a translated result using the OpenAI API. The app currently supports French, Spanish, and Japanese translations through a simple and clean interface. This project idea came from Scrimba’s Fullstack Developer Path, where students complete solo projects after finishing different modules and lessons. The project was built using HTML, CSS, JavaScript, Node.js, Express, and Vite.
-
-# Getting Started
-
-Install the dependencies and run the project
-
-```bash
-npm install
-npm start
-```
