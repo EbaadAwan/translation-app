@@ -1,19 +1,12 @@
+# PollyGlot
+
+This is a solo project that focuses on essential full stack JavaScript concepts like working with APIs, handling asynchronous requests, building an Express server, using environment variables, and dynamically updating the DOM. The purpose of this mini project was to create an AI-powered translation app where users can enter text, select a language, and receive a translated result using the OpenAI API. The app currently supports French, Spanish, and Japanese translations through a simple and clean interface. This project idea came from Scrimba’s Fullstack Developer Path, where students complete solo projects after finishing different modules and lessons. The project was built using HTML, CSS, JavaScript, Node.js, Express, and Vite.
+
 # Getting Started
+
 Install the dependencies and run the project
-```
+
+```bash
 npm install
 npm start
 ```
-
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
